@@ -1,0 +1,26 @@
+{
+  "name": "@saji/scrobble-me-this",
+  "version": "0.0.1",
+  "description": "Scrobble tracks to Last.fm from CSV input",
+  "author": {
+    "name": "Marek ‘saji’ Augustynowicz",
+    "email": "marek.aug@gmail.com"
+  },
+  "license": "ISC",
+  "keywords": [
+    "lastfm",
+    "scrobble",
+    "csv"
+  ],
+  "main": "index.mjs",
+  "type": "module",
+  "bin": {
+    "scrobble-me-this": "./index.mjs"
+  },
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.2"
+  }
+} 
