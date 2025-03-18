@@ -17,10 +17,18 @@
   "bin": {
     "scrobble-me-this": "./index.mjs"
   },
+  "homepage": "https://github.com/saji/scrobble-me-this",
+  "bugs": {
+    "url": "https://github.com/saji/scrobble-me-this/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saji/scrobble-me-this.git"
+  },
   "scripts": {
     "start": "node index.mjs"
   },
   "dependencies": {
     "csv-parse": "^5.5.2"
   }
-} 
+}
